@@ -2,14 +2,14 @@
     "name":"John",
     "public":{
         "age":30,
-        "areaOfResidence":"Nairobi",
+        "areaOfResidence":"California",
         "occupation":"Software developer",
         "maritalStatus" : "Married"
     },
     "private":{
         "salary":100000,
-        "weight":78,
+        "weight":40,
         "creditRating":100,
-        "IDNumber":12345678
+        "SSN":123456789
     }
 }]
