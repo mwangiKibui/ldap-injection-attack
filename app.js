@@ -6,6 +6,13 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
+app.get('/', (req,res)=>{
+    return res.json({
+        success:true,
+        message:"Everything is running"
+    })
+})
+
 
 app.get('/users/:user', (req,res) => {
     let user = req.params.user;
