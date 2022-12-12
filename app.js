@@ -14,7 +14,7 @@ app.get('/', (req,res)=>{
 })
 
 
-app.get('/users/:user', (req,res) => {
+app.get('/api/users/:user', (req,res) => {
     let user = req.params.user;
     let access_level = req.query.access_level;
 
