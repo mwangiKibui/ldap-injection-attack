@@ -1,0 +1,15 @@
+[{
+    "name":"John",
+    "public":{
+        "age":30,
+        "areaOfResidence":"Nairobi",
+        "occupation":"Software developer",
+        "maritalStatus" : "Married"
+    },
+    "private":{
+        "salary":100000,
+        "weight":78,
+        "creditRating":100,
+        "IDNumber":12345678
+    }
+}]
